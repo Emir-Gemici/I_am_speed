@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/vehicleLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Ara&#231; se&#231;"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <Spinner
+        android:id="@+id/vehicleSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="#1E1E1E" />
+
+    <TextView
+        android:id="@+id/speedText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="0 km/h"
+        android:textColor="#FFFFFF"
+        android:textSize="48sp" />
+
+    <TextView
+        android:id="@+id/vehicleInfoText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:text="Se&#231;ili ara&#231;: RS6"
+        android:textColor="#DDDDDD"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/gearText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:text="Vites: 1"
+        android:textColor="#AAAAAA"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Ba&#351;lat" />
+
+</LinearLayout>
